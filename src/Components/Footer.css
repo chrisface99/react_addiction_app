@@ -1,0 +1,27 @@
+footer {
+  background-color: #222; /* Dark background */
+  color: white;
+  padding: 40px 0; /* Increased padding for elegance */
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Style for footer information */
+.footer-info {
+  font-size: 16px;
+  margin-top: 10px; /* Add space between content and footer links */
+}
+
+.footer-info a {
+  color: #66b3ff; /* Blue link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-info a:hover {
+  color: #3385ff; /* Lighter blue on hover */
+}

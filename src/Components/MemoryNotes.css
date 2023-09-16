@@ -1,0 +1,129 @@
+
+.memory-notes {
+    display: none; /* Hidden by default */
+  }
+  
+  .memory-notes.visible {
+    display: block; /* Show when isVisible is true */
+  }
+.button .Sales-btn {
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.2s ease; 
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+    background-color: #5482d0;
+    transform: scale(0.95); 
+}
+.memory-notes textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  .memory-notes input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: white; /* Optional: Set a background color */
+    color: black; /* Optional: Set a text color */
+  }
+  /* MemoryNotes.css */
+
+.memory-notes {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .memory-notes.visible {
+    display: block;
+  }
+  
+  .memory-notes h2 {
+    margin-top: 0;
+  }
+  
+  .memory-notes input[type="date"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .memory-notes textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  .memory-notes .button {
+    text-align: right;
+  }
+  
+  .memory-notes .Sales-btn {
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+    background-color: #5482d0;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .memory-notes .Sales-btn:hover {
+    transform: scale(0.95);
+  }
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .note p {
+    margin: 0;
+  }
+  
+  .note p:first-child {
+    font-weight: bold;
+  }
+  

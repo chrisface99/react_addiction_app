@@ -1,0 +1,70 @@
+/* CalendarComponent.css */
+.calendar-container {
+  width: 358px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #181818;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Increased shadow */
+}
+.react-calendar {
+  border-radius: 20px 20px 0px 0px;
+}
+/* Customize the calendar tiles */
+.react-calendar__tile {
+  background-color: #282828;
+  border-radius: 0%;
+  margin: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Add shadow to tiles */
+}
+
+/* Highlight today's tile */
+.react-calendar__tile--now {
+  background-color: #444444;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Adjust shadow */
+}
+
+/* Add hover effect */
+.react-calendar__tile:hover {
+  background-color: #333333;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7); /* Increase hover shadow */
+}
+
+/* Apply futuristic button-like styles */
+.react-calendar__tile button {
+  background-color: #3d9bf5;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 14px 15px;
+  border: none;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Add box-shadow transition */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4); /* Add initial shadow */
+}
+
+/* Button hover effect */
+.react-calendar__tile button:hover {
+  background-color: #5db5ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Increase hover shadow */
+}
+
+/* Button active effect */
+.react-calendar__tile button:active {
+  transform: scale(0.95);
+}
